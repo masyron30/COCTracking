@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal"
+    android:background="@drawable/grid_cell">
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="+"
+        android:background="@drawable/btn_gray"
+        android:includeFontPadding="false"
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp"
+        android:id="@+id/buttonPlus"
+        android:layout_gravity="center_vertical"
+        android:textSize="20sp"
+        android:gravity="center_vertical|center_horizontal" />
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="+10"
+        android:background="@drawable/btn_gray"
+        android:includeFontPadding="false"
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:id="@+id/buttonPlus10"
+        android:layout_gravity="center_vertical"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center_vertical|center_horizontal" />
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="-"
+        android:background="@drawable/btn_gray"
+        android:textSize="20sp"
+        android:includeFontPadding="false"
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp"
+        android:id="@+id/buttonMinus"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical|center_horizontal" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="8dp"
+        android:paddingTop="1dp"
+        android:paddingBottom="2dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/wallTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="2"
+            android:shadowColor="#ffc0c0c0"
+            android:ellipsize="end"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/wallInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:lines="2"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="2"
+            android:shadowColor="#ffc0c0c0"
+            android:ellipsize="end"/>
+    </LinearLayout>
+</LinearLayout>

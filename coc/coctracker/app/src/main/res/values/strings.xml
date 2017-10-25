@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ad_unit_id">ca-app-pub-???</string>
+    <string name="ad_unit_id_test">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="app_name">Upgrade Tracker for Clash</string>
+    <string name="action_help">Help</string>
+    <string name="help_title">How to use</string>
+    <string name="help_text"><![CDATA[Set your current town hall level first. Then set the current level of all spells, buildings and troops.
+    <i>(When starting to track a village from scratch,
+    the quickest way may be to set the town hall level to one less than your current level, use the <b>Max All</b> menu item to set the level of
+    every building to maximum and adjust from there.)</i>
+    When done, you can view the time and cost of maxing out your current town hall level on the Stats page.<br><br>
+    Use the + and - buttons to set levels. (Long-pressing the +/- buttons sets the item to the maximum/minimum possible value.) Touch an item name to add a color marker.
+    Touch tabs or swipe left/right to select pages. Swipe down if not all items fit onto a page.<br><br>
+    Touch the blue number in the Stats table to set number of builders and see an approximation of finishing time. Touch the red numbers to set your planned upgrade
+    level for heroes and walls, if these are set to lower than the maximum for your town hall
+    level, time/cost calculations will be reduced accordingly.<br><br>You can track up to 5 villages. Touch the village name in the top right
+    corner to select another village to edit.
+    <br><br>You can sort the maxed items at the end of the list by touching the <b>Sort Maxed</b> menu item (this sorts all pages).
+    <br><br>Use the Upgrade Finder page to get upgrade suggestions based on your current amount of resources.]]></string>
+    <string name="new_version_title">Welcome</string>
+    <string name="new_version_msg"><![CDATA[See Help for usage instructions.<br><br>Latest changes:<br>- March 2017 air defense changes]]></string>
+    <string name="level">Level %1$d/%2$d</string>
+    <string name="levelwall">Level %1$d</string>
+    <string name="count">Count: %1$d</string>
+    <string name="built_walls">Walls: %1$d</string>
+    <string name="max_walls">Maximum: %1$d</string>
+    <string name="wall_note">Note: for walls, any part of the calculated elixir cost can be replaced with gold.</string>
+    <string name="wall_cost"><![CDATA[<br>Cost: <font color="%1$s">%2$sG</font>]]></string>
+    <string name="wall_cost_e"><![CDATA[<font color="%1$s">/E</font>]]></string>
+    <string name="newbuilding">NEW</string>
+    <string name="buildinginfo"><![CDATA[<font color="%1$s">%2$s</font><br>%3$s]]></string>
+    <string name="maxed"><![CDATA[<font color="%1$s">Maxed</font>]]></string>
+    <string name="next"><![CDATA[Next: <font color="%1$s">%2$s%3$s</font>, %4$s]]></string>
+    <string name="goldshort">G</string>
+    <string name="exshort">E</string>
+    <string name="dexshort">DE</string>
+    <string name="BN_TOWNHALL">Town Hall</string>
+    <string name="BN_CANNON">Cannon</string>
+    <string name="BN_ARCHERTOWER">Archer Tower</string>
+    <string name="BN_GOLDMINE">Gold Mine</string>
+    <string name="BC_BASIC">Basics</string>
+    <string name="BC_DEFENSE">Defenses</string>
+    <string name="BC_RESOURCE">Resources</string>
+    <string name="BC_TROOP">Troops</string>
+    <string name="BC_SPELL">Spells</string>
+    <string name="BN_BARBKING">Barbarian King</string>
+    <string name="BN_ARCHERQUEEN">Archer Queen</string>
+    <string name="BN_GRANDWARDEN">Grand Warden</string>
+    <string name="BN_CLANCASTLE">Clan Castle</string>
+    <string name="stats_title_type">Type</string>
+    <string name="stats_title_g">Gold</string>
+    <string name="stats_title_ex">Elixir</string>
+    <string name="stats_title_dex">Dark\nElixir</string>
+    <string name="stats_title_btime">Builder\nTime</string>
+    <string name="stats_title_ltime">Research\nTime</string>
+    <string name="BC_STATS">Stats</string>
+    <string name="BN_LIGHTNING">Lightning</string>
+    <string name="BN_MORTAR">Mortar</string>
+    <string name="BN_AIRDEFENSE">Air Defense</string>
+    <string name="BN_WIZARDTOWER">Wizard Tower</string>
+    <string name="BN_HIDDENTESLA">Hidden Tesla</string>
+    <string name="BN_XBOW">X-Bow</string>
+    <string name="BN_INFERNOTOWER">Inferno Tower</string>
+    <string name="BN_BOMB">Bomb</string>
+    <string name="BN_SPRINGTRAP">Spring Trap</string>
+    <string name="BN_GIANTBOMB">Giant Bomb</string>
+    <string name="BN_AIRBOMB">Air Bomb</string>
+    <string name="BN_SEEKINGAIRMINE">Seeking Air Mine</string>
+    <string name="BN_SKELETONTRAP">Skeleton Trap</string>
+    <string name="BN_ELIXIRCOLLECTOR">Elixir Collector</string>
+    <string name="BN_DARKELIXIRDRILL">Dark Elixir Drill</string>
+    <string name="BN_GOLDSTORAGE">Gold Storage</string>
+    <string name="BN_ELIXIRSTORAGE">Elixir Storage</string>
+    <string name="BN_DARKELIXIRSTORAGE">Dark Elixir Storage</string>
+    <string name="BC_TRAP">Traps</string>
+    <string name="BC_HERO">Heroes</string>
+    <string name="townhall_reduce_dialog_title">Reduce Town Hall Level</string>
+    <string name="townhall_reduce_dialog_message">This may remove some buildings and reduce the levels of others.</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="BN_ARMYCAMP">Army Camp</string>
+    <string name="BN_BARRACKS">Barracks</string>
+    <string name="BN_DARKBARRACKS">Dark Barracks</string>
+    <string name="BN_LABORATORY">Laboratory</string>
+    <string name="BN_SPELLFACTORY">Spell Factory</string>
+    <string name="BN_HEALING">Healing</string>
+    <string name="BN_RAGE">Rage</string>
+    <string name="BN_JUMP">Jump</string>
+    <string name="BN_FREEZE">Freeze</string>
+    <string name="BN_BARBARIAN">Barbarian</string>
+    <string name="BN_ARCHER">Archer</string>
+    <string name="BN_GOBLIN">Goblin</string>
+    <string name="BN_GIANT">Giant</string>
+    <string name="BN_WALLBREAKER">Wall Breaker</string>
+    <string name="BN_BALLOON">Balloon</string>
+    <string name="BN_WIZARD">Wizard</string>
+    <string name="BN_HEALER">Healer</string>
+    <string name="BN_DRAGON">Dragon</string>
+    <string name="BN_PEKKA">P.E.K.K.A</string>
+    <string name="buildtime_instant">instant</string>
+    <string name="stats_total">TOTAL</string>
+    <string name="day_short">d</string>
+    <string name="hour_short">h</string>
+    <string name="minute_short">m</string>
+    <string name="to_max_out_th_level">To max out your current TH level you need:</string>
+    <string name="BN_MINION">Minion</string>
+    <string name="BN_HOGRIDER">Hog Rider</string>
+    <string name="BN_VALKYRIE">Valkyrie</string>
+    <string name="BN_GOLEM">Golem</string>
+    <string name="BN_WITCH">Witch</string>
+    <string name="BN_LAVAHOUND">Lava Hound</string>
+    <string name="BC_WALLS">Walls</string>
+    <string name="BN_WALL">Wall</string>
+    <string name="with">With&#160;</string>
+    <string name="builders_colon">&#160;builders it takes:</string>
+    <string name="BN_AIRSWEEPER">Air Sweeper</string>
+    <string name="MENU_VILLAGE">Village</string>
+    <string name="MENU_VILLAGE1">1st village</string>
+    <string name="MENU_VILLAGE2">2nd village</string>
+    <string name="MENU_VILLAGE3">3rd village</string>
+    <string name="MENU_VILLAGE4">4th village</string>
+    <string name="MENU_VILLAGE5">5th village</string>
+    <string name="MENUITEM_SORT">Sort maxed items to end</string>
+    <string name="TOAST_SORT">Maxed items have been moved to the end on all pages.</string>
+    <string name="MENUITEM_MAXALL">Max all items for current TH level</string>
+    <string name="MENUITEM_RENAME">Rename village</string>
+    <string name="DIALOG_MAXALL_TITLE">Max All</string>
+    <string name="DIALOG_MAXALL_MESSAGE">This will set the level of all buildings to their possible maximum on this town hall level. Are you sure?</string>
+    <string name="BN_DARKSPELLFACTORY">Dark Spell Factory</string>
+    <string name="BN_POISON">Poison</string>
+    <string name="BN_EARTHQUAKE">Earthquake</string>
+    <string name="BN_HASTE">Haste</string>
+    <string name="BN_EAGLEARTILLERY">Eagle Artillery</string>
+    <string name="DLG_RENAME_VILLAGE">Rename Village</string>
+    <string name="DLG_ENTER_NEW_NAME">Enter new name (up to 15 characters)</string>
+    <string name="DLG_BTN_RENAME">Rename</string>
+    <string name="BN_BOWLER">Bowler</string>
+    <string name="BN_SKELETONSPELL">Skeleton</string>
+    <string name="BN_CLONESPELL">Clone</string>
+    <string name="BN_BABYDRAGON">Baby Dragon</string>
+    <string name="BN_MINER">Miner</string>
+
+    <string name="finder_btn_search">Search</string>
+    <string name="finder_title_item">Item</string>
+    <string name="finder_title_level">Lvl</string>
+    <string name="finder_title_time">Time</string>
+    <string name="finder_title_gold">Gold</string>
+    <string name="finder_title_ex">Elixir</string>
+    <string name="finder_title_dex">Dark</string>
+    <string name="finder_title">Upgrade Finder</string>
+    <string name="finder_how_much_resources_you_have">How much do you have?</string>
+    <string name="finder_gold">Gold:</string>
+    <string name="finder_ex">Elixir:</string>
+    <string name="finder_dex">Dark:</string>
+    <string name="finder_suggested_building_upgrades">Builder upgrades</string>
+    <string name="finder_suggested_lab_upgrades">Laboratory upgrades</string>
+    <string name="finder_explanation"><![CDATA[The finder suggests some upgrades that you can start immediately and allow to spend the most of your resources.
+     It also lists upgrades that require the least amount of farming to start.<br><br><font color="#00c000">Green numbers</font> mean you have the needed amount
+     and show how much will remain after starting the upgrade. <font color="#ff0000">Red numbers</font> show the amount of resources missing to start the upgrade. The item with
+     a <font color="#ffd632">gold background</font> marks the suggested upgrade.]]></string>
+    <string name="findercost"><![CDATA[<font color="%1$s">%2$s</font>;]]></string>
+    <string name="finder_row_lvl">%1$d</string>
+    <string name="BN_BOMBTOWER">Bomb Tower</string>
+
+    <string-array name="builder_counts">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="hero_levels">
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>35</item>
+        <item>40</item>
+        <item>45</item>
+    </string-array>
+    <string-array name="wall_levels">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+</resources>

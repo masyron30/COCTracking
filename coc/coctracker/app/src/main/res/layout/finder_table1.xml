@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal"
+    android:id="@+id/finder_table1">
+
+    <TableRow android:id="@+id/finder_row_title">
+        <TextView
+            style="@style/statTextLeftTitle"
+            android:id="@+id/finder_title"
+            android:ellipsize="end"
+            android:layout_span="6"
+            android:gravity="center_horizontal"
+            android:text="@string/finder_suggested_building_upgrades"/>
+    </TableRow>
+    <TableRow android:id="@+id/finder_row_columntitles">
+        <TextView
+            style="@style/statTextLeftTitle"
+            android:id="@+id/finder_title_item"
+            android:ellipsize="end"
+            android:text="@string/finder_title_item"/>
+        <TextView
+            style="@style/statTextLeftTitle"
+            android:id="@+id/finder_title_lvl"
+            android:ellipsize="end"
+            android:text="@string/finder_title_level"/>
+        <TextView
+            style="@style/statTextTitle"
+            android:id="@+id/finder_title_gold"
+            android:ellipsize="end"
+            android:text = "@string/finder_title_gold"/>
+        <TextView
+            style="@style/statTextTitle"
+            android:id="@+id/finder_title_ex"
+            android:ellipsize="end"
+            android:text = "@string/finder_title_ex"/>
+        <TextView
+            style="@style/statTextTitle"
+            android:id="@+id/finder_title_dex"
+            android:ellipsize="end"
+            android:text = "@string/finder_title_dex"/>
+        <TextView
+            style="@style/statTextTitle"
+            android:id="@+id/finder_title_time"
+            android:ellipsize="end"
+            android:text = "@string/finder_title_time"/>
+    </TableRow>
+    <!--<include layout="@layout/finder_table_builder_row"/>-->
+</TableLayout>
+

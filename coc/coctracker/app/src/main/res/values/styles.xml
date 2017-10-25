@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="@android:style/Theme.Holo.Light">
+    </style>
+
+    <style name="formText">
+        <item name="android:textSize">@dimen/stat_text_size</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:gravity">left</item>
+        <item name="android:shadowRadius">2</item>
+        <item name="android:shadowColor">@android:color/darker_gray</item>
+        <item name="android:layout_margin">1dp</item>
+    </style>
+
+    <style name="statText">
+        <item name="android:textSize">@dimen/stat_text_size</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+        <item name="android:shadowColor">@android:color/darker_gray</item>
+        <item name="android:gravity">right</item>
+        <item name="android:layout_margin">1dp</item>
+        <item name="android:background">@drawable/stats_cell</item>
+    </style>
+
+    <style name="statTextLeft" parent="@style/statText">
+        <item name="android:gravity">left</item>
+        <item name="android:textSize">@dimen/stat_text_size</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:background">@drawable/stats_cell</item>
+    </style>
+
+    <style name="statTextTitle" parent="@style/statText">
+        <item name="android:background">@drawable/stats_title_cell</item>
+        <item name="android:textSize">@dimen/stat_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="statTextLeftTitle" parent="@style/statTextLeft">
+        <item name="android:background">@drawable/stats_title_cell</item>
+        <item name="android:textSize">@dimen/stat_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="statTextNote">
+        <item name="android:textSize">12sp</item>
+        <item name="android:background">@drawable/stats_note_cell</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+        <item name="android:shadowColor">#ffc0c0c0</item>
+    </style>
+
+    <style name="builderText">
+        <item name="android:textSize">@dimen/stat_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+        <item name="android:shadowColor">@android:color/darker_gray</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:background">@drawable/stats_title_cell</item>
+    </style>
+
+</resources>

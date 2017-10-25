@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent" android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+<TableLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal"
+    android:id="@+id/stats_table"
+    tools:ignore="duplicateIds">
+
+    <TableRow android:id="@+id/stats_row_explanation">
+        <TextView
+            style="@style/statTextLeftTitle"
+            android:id="@+id/stats_explanation"
+            android:ellipsize="end"
+            android:layout_span="6"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text = "@string/to_max_out_th_level"
+            android:gravity="center_horizontal" />
+    </TableRow>
+
+    <TableRow android:id="@+id/stats_row_title">
+        <TextView
+            style="@style/statTextLeftTitle"
+            android:id="@+id/stats_title_type"
+            android:lines="2"
+            android:ellipsize="end"/>
+        <TextView
+            style="@style/statTextTitle"
+            android:id="@+id/stats_title_g"
+            android:lines="2"
+            android:ellipsize="end"
+            android:text = "@string/stats_title_g"/>
+        <TextView
+            style="@style/statTextTitle"
+            android:id="@+id/stats_title_ex"
+            android:lines="2"
+            android:ellipsize="end"
+            android:text = "@string/stats_title_ex"/>
+        <TextView
+            style="@style/statTextTitle"
+            android:id="@+id/stats_title_dex"
+            android:lines="2"
+            android:ellipsize="end"
+            android:text = "@string/stats_title_dex"/>
+        <TextView
+            style="@style/statTextTitle"
+            android:id="@+id/stats_title_btime"
+            android:lines="2"
+            android:ellipsize="end"
+            android:text = "@string/stats_title_btime"/>
+        <TextView
+            style="@style/statTextTitle"
+            android:id="@+id/stats_title_ltime"
+            android:lines="2"
+            android:ellipsize="end"
+            android:text = "@string/stats_title_ltime"/>
+    </TableRow>
+
+    <TableRow android:id="@+id/stats_row_basic">
+        <TextView
+            style="@style/statTextLeftTitle"
+            android:text="Resources"
+            android:id="@+id/stats_value_type"            />
+        <TextView
+            style="@style/statText"
+            android:id="@+id/stats_value_g"/>
+        <TextView
+            style="@style/statText"
+            android:id="@+id/stats_value_ex"/>
+        <TextView
+            style="@style/statText"
+            android:id="@+id/stats_value_dex"/>
+        <TextView
+            style="@style/statText"
+            android:id="@+id/stats_value_btime"/>
+        <TextView
+            style="@style/statText"
+            android:id="@+id/stats_value_ltime"/>
+    </TableRow>
+
+    <TableRow android:id="@+id/stats_row_defenses">
+        <TextView
+            style="@style/statTextLeftTitle"
+            android:id="@+id/stats_value_type"/>
+        <TextView
+            style="@style/statText"
+            android:id="@+id/stats_value_g"/>
+        <TextView
+            style="@style/statText"
+            android:id="@+id/stats_value_ex"/>
+        <TextView
+            style="@style/statText"
+            android:id="@+id/stats_value_dex"/>
+        <TextView
+            style="@style/statText"
+            android:id="@+id/stats_value_btime"/>
+        <TextView
+            style="@style/statText"
+            android:id="@+id/stats_value_ltime"/>
+    </TableRow>
+
+    <TableRow android:id="@+id/stats_row_traps">
+        <TextView
+            style="@style/statTextLeftTitle"
+            android:id="@+id/stats_value_type"/>
+        <TextView
+            style="@style/statText"
+            android:id="@+id/stats_value_g"/>
+        <TextView
+            style="@style/statText"
+            android:id="@+id/stats_value_ex"/>
+        <TextView
+            style="@style/statText"
+            android:id="@+id/stats_value_dex"/>
+        <TextView
+            style="@style/statText"
+            android:id="@+id/stats_value_btime"/>
+        <TextView
+            style="@style/statText"
+            android:id="@+id/stats_value_ltime"/>
+    </TableRow>
+
+    <TableRow android:id="@+id/stats_row_resources">
+        <TextView
+            style="@style/statTextLeftTitle"
+            android:id="@+id/stats_value_type"/>
+        <TextView
+            style="@style/statText"
+            android:id="@+id/stats_value_g"/>
+        <TextView
+            style="@style/statText"
+            android:id="@+id/stats_value_ex"/>
+        <TextView
+            style="@style/statText"
+            android:id="@+id/stats_value_dex"/>
+        <TextView
+            style="@style/statText"
+            android:id="@+id/stats_value_btime"/>
+        <TextView
+            style="@style/statText"
+            android:id="@+id/stats_value_ltime"/>
+    </TableRow>
+
+    <TableRow android:id="@+id/stats_row_troops">
+        <TextView
+            style="@style/statTextLeftTitle"
+            android:id="@+id/stats_value_type"/>
+        <TextView
+            style="@style/statText"
+            android:id="@+id/stats_value_g"/>
+        <TextView
+            style="@style/statText"
+            android:id="@+id/stats_value_ex"/>
+        <TextView
+            style="@style/statText"
+            android:id="@+id/stats_value_dex"/>
+        <TextView
+            style="@style/statText"
+            android:id="@+id/stats_value_btime"/>
+        <TextView
+            style="@style/statText"
+            android:id="@+id/stats_value_ltime"/>
+    </TableRow>
+
+    <TableRow android:id="@+id/stats_row_heroes">
+        <LinearLayout android:orientation="horizontal" android:weightSum="10">
+            <TextView
+                style="@style/statTextLeftTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="8"
+                android:id="@+id/stats_value_type"/>
+            <Spinner
+                android:id="@+id/heroes_max_level"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:layout_margin="1dp"
+                style="@style/builderText"/>
+        </LinearLayout>
+
+        <TextView
+            style="@style/statText"
+            android:id="@+id/stats_value_g"/>
+        <TextView
+            style="@style/statText"
+            android:id="@+id/stats_value_ex"/>
+        <TextView
+            style="@style/statText"
+            android:id="@+id/stats_value_dex"/>
+        <TextView
+            style="@style/statText"
+            android:id="@+id/stats_value_btime"/>
+        <TextView
+            style="@style/statText"
+            android:id="@+id/stats_value_ltime"/>
+    </TableRow>
+
+    <TableRow android:id="@+id/stats_row_spells">
+        <TextView
+            style="@style/statTextLeftTitle"
+            android:id="@+id/stats_value_type"/>
+        <TextView
+            style="@style/statText"
+            android:id="@+id/stats_value_g"/>
+        <TextView
+            style="@style/statText"
+            android:id="@+id/stats_value_ex"/>
+        <TextView
+            style="@style/statText"
+            android:id="@+id/stats_value_dex"/>
+        <TextView
+            style="@style/statText"
+            android:id="@+id/stats_value_btime"/>
+        <TextView
+            style="@style/statText"
+            android:id="@+id/stats_value_ltime"/>
+    </TableRow>
+
+    <TableRow android:id="@+id/stats_row_walls">
+        <LinearLayout android:orientation="horizontal" android:weightSum="10">
+            <TextView
+                style="@style/statTextLeftTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="8"
+                android:id="@+id/stats_value_type"/>
+            <Spinner
+                android:id="@+id/walls_max_level"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:layout_margin="1dp"
+                style="@style/builderText"/>
+        </LinearLayout>
+
+        <TextView
+            style="@style/statText"
+            android:id="@+id/stats_value_g"/>
+        <TextView
+            style="@style/statText"
+            android:id="@+id/stats_value_ex"/>
+        <TextView
+            style="@style/statText"
+            android:id="@+id/stats_value_dex"/>
+        <TextView
+            style="@style/statText"
+            android:id="@+id/stats_value_btime"/>
+        <TextView
+            style="@style/statText"
+            android:id="@+id/stats_value_ltime"/>
+    </TableRow>
+
+    <TableRow android:id="@+id/stats_row_total">
+        <TextView
+            style="@style/statTextLeftTitle"
+            android:id="@+id/stats_title_type"
+            android:text = "@string/stats_total"/>
+        <TextView
+            style="@style/statTextTitle"
+            android:text="999,999"
+            android:id="@+id/stats_value_g"/>
+        <TextView
+            style="@style/statTextTitle"
+            android:text="999,999"
+            android:id="@+id/stats_value_ex"/>
+        <TextView
+            style="@style/statTextTitle"
+            android:text="999,999"
+            android:id="@+id/stats_value_dex"/>
+        <TextView
+            style="@style/statTextTitle"
+            android:text="999d 99h"
+            android:id="@+id/stats_value_btime"/>
+        <TextView
+            style="@style/statTextTitle"
+            android:text="999d 99h"
+            android:id="@+id/stats_value_ltime"/>
+    </TableRow>
+
+    <TableRow android:id="@+id/stats_row_buildtime">
+        <LinearLayout android:orientation="horizontal"
+            android:layout_span="4"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                style="@style/builderText"
+                android:text = "@string/with"/>
+
+            <Spinner
+                android:id="@+id/num_builders"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/builderText"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                style="@style/builderText"
+                android:text = "@string/builders_colon"/>
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/statTextTitle"
+            android:text="999d 99h"
+            android:layout_height="match_parent"
+            android:gravity="right"
+            android:layout_margin="1dp"
+            android:id="@+id/stats_value_time_for_builders"/>
+
+        <TextView
+            style="@style/statTextTitle"
+            android:text=""
+            android:layout_margin="1dp"
+            android:layout_height="match_parent"
+            android:id="@+id/stats_value_dummy"/>
+
+    </TableRow>
+
+    <TableRow android:id="@+id/stats_row_note">
+        <TextView
+            style="@style/statTextNote"
+            android:id="@+id/stats_note"
+            android:ellipsize="end"
+            android:layout_span="6"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text = "@string/wall_note"
+            android:gravity="left" />
+    </TableRow>
+
+</TableLayout>
+</ScrollView>

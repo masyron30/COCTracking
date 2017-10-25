@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/action_village" android:title="@string/MENU_VILLAGE"
+        android:orderInCategory="90" android:showAsAction="ifRoom">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/village1" android:title="@string/MENU_VILLAGE1" android:onClick="onSelectVillage"/>
+                <item android:id="@+id/village2" android:title="@string/MENU_VILLAGE2" android:onClick="onSelectVillage"/>
+                <item android:id="@+id/village3" android:title="@string/MENU_VILLAGE3" android:onClick="onSelectVillage"/>
+                <item android:id="@+id/village4" android:title="@string/MENU_VILLAGE4" android:onClick="onSelectVillage"/>
+                <item android:id="@+id/village5" android:title="@string/MENU_VILLAGE5" android:onClick="onSelectVillage"/>
+            </group>
+        </menu>
+    </item>
+    <item android:id="@+id/action_sort" android:title="@string/MENUITEM_SORT"
+        android:orderInCategory="95" android:showAsAction="never"/>
+    <item android:id="@+id/action_maxall" android:title="@string/MENUITEM_MAXALL"
+        android:orderInCategory="97" android:showAsAction="never"/>
+    <item android:id="@+id/action_rename" android:title="@string/MENUITEM_RENAME"
+        android:orderInCategory="98" android:showAsAction="never"/>
+    <item android:id="@+id/action_help" android:title="@string/action_help"
+        android:orderInCategory="100" android:showAsAction="never" />
+</menu>

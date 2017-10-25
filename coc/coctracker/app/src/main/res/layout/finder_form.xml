@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    android:layout_height="wrap_content"
+    android:layout_width="180dp"
+    android:layout_gravity="center_horizontal"
+    android:id="@+id/finder_form"
+    android:layout_margin="8dp"
+    android:columnCount="2"
+    android:rowCount="4"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/finder_how_much_resources_you_have"
+        style="@style/formText"
+        android:layout_columnSpan="2"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:id="@+id/finder_form_title" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/formText"
+        android:text="@string/finder_gold"
+        android:id="@+id/finder_text_gold" />
+
+    <EditText
+        android:id="@+id/finder_edit_gold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:text=""
+        android:inputType="number"
+        android:imeOptions="actionNext"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:ems="5"
+        android:maxLength="7"
+        android:digits="0123456789"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/formText"
+        android:text="@string/finder_ex"
+        android:id="@+id/finder_text_ex"/>
+
+    <EditText
+        android:id="@+id/finder_edit_ex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:text=""
+        android:inputType="number"
+        android:selectAllOnFocus="true"
+        android:imeOptions="actionNext"
+        android:singleLine="true"
+        android:ems="5"
+        android:maxLength="7"
+        android:digits="0123456789"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/formText"
+        android:text="@string/finder_dex"
+        android:id="@+id/finder_text_dex"/>
+
+    <EditText
+        android:id="@+id/finder_edit_dex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:text=""
+        android:inputType="number"
+        android:selectAllOnFocus="true"
+        android:imeOptions="actionSearch"
+        android:singleLine="true"
+        android:ems="5"
+        android:maxLength="7"
+        android:digits="0123456789"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="@string/finder_btn_search"
+        android:background="@drawable/btn_gray"
+        android:includeFontPadding="false"
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp"
+        android:id="@+id/finder_btn_search"
+        android:layout_gravity="center_horizontal"
+        android:layout_columnSpan="2" />
+</GridLayout>

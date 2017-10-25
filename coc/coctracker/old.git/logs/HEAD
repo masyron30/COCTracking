@@ -1,0 +1,16 @@
+0000000000000000000000000000000000000000 6a9628bca102a15082bb2b68dfe4598894c32624 nsomlai <nsomlai@gmail.com> 1465311852 +0200	clone: from //nas/git/coctracker
+6a9628bca102a15082bb2b68dfe4598894c32624 bb4147805b666851b48b83f922efd82b6f406f2d nsomlai <nsomlai@gmail.com> 1465312270 +0200	commit: remove some tracked files
+bb4147805b666851b48b83f922efd82b6f406f2d b7e663d6c58f34ebd1579ca2824d665d5dbe0112 nsomlai <nsomlai@gmail.com> 1465312593 +0200	merge origin/master: Fast-forward
+b7e663d6c58f34ebd1579ca2824d665d5dbe0112 b2c3ad1751efe14ab61c4246e7ef7f7f5c74c815 nsomlai <nsomlai@gmail.com> 1465576080 +0200	commit: proper fragment handling on rotation
+b2c3ad1751efe14ab61c4246e7ef7f7f5c74c815 71a09af04cafdc2eac7e57849f02421fca3e2d36 nsomlai <nsomlai@gmail.com> 1465633483 +0200	commit: upgrade finder
+71a09af04cafdc2eac7e57849f02421fca3e2d36 54eef6ca5ca9ebe263bfbb0aab562c5e082ad012 nsomlai <nsomlai@gmail.com> 1465643091 +0200	commit: upgrade build tools
+54eef6ca5ca9ebe263bfbb0aab562c5e082ad012 3282575c74085c05ad0b9e8720a3b6096c98e0f8 nsomlai <nsomlai@gmail.com> 1465643114 +0200	commit: fix duplication bug
+3282575c74085c05ad0b9e8720a3b6096c98e0f8 ba4d745544deffc8f1d2fce690a65a3669035280 nsomlai <nsomlai@gmail.com> 1465643781 +0200	commit: new screenshots
+ba4d745544deffc8f1d2fce690a65a3669035280 25a4b09138d3db502ace0e7362e9bc350914936a nsomlai <nsomlai@gmail.com> 1465644305 +0200	commit: prep for release
+25a4b09138d3db502ace0e7362e9bc350914936a e9c99a607dcc1790644e2d69d19af71ce943bead nsomlai <nsomlai@gmail.com> 1465654323 +0200	commit: fix sorting
+e9c99a607dcc1790644e2d69d19af71ce943bead 9df860fbd0a642e183d5a5c8a033390b2b1bf27d nsomlai <nsomlai@gmail.com> 1469024409 +0200	commit: - New level for Archer Tower and Giant
+9df860fbd0a642e183d5a5c8a033390b2b1bf27d 2a4164ba7e1b3ebe37c0943f75f14fd946c1cac8 nsomlai <nsomlai@gmail.com> 1469360154 +0200	commit: - Fix costs for Archer Tower and Giant
+2a4164ba7e1b3ebe37c0943f75f14fd946c1cac8 b59effbff3b859f7e339a4dc9305e7444a14a7f5 nsomlai <nsomlai@gmail.com> 1476603645 +0200	commit: - October 2016 game changes
+b59effbff3b859f7e339a4dc9305e7444a14a7f5 c497d45394f5c5e9678a3144ae513dc30fa52540 nsomlai <nsomlai@gmail.com> 1489131339 +0100	merge origin/master: Fast-forward
+c497d45394f5c5e9678a3144ae513dc30fa52540 678f48a842f37635dd786e7b6a2e393ab0d767b3 nsomlai <nsomlai@gmail.com> 1489133530 +0100	commit: - March 2017 changes
+678f48a842f37635dd786e7b6a2e393ab0d767b3 28aeefa08624b11912247eb9bfc4748e2b0f8f5f nsomlai <nsomlai@gmail.com> 1489136129 +0100	commit: - March 2017 game changes

@@ -1,0 +1,3 @@
+Keep track of your upgrade levels in Clash of Clans.
+
+A simple tool to track the level of your buildings, troops and spells in Clash of Clans. You can also see the cost/time it takes to max out your current town hall level.

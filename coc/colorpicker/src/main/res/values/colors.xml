@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="default_color_choice_values" translatable="false">
+        <item>#00ffffff</item>
+        <item>#000000</item>
+        <item>#666666</item>
+        <item>#999999</item>
+        <item>#ffff0000</item>
+        <item>#ffff6000</item>
+        <item>#ffff9a00</item>
+        <item>#ffffcd00</item>
+        <item>#fffeff00</item>
+        <item>#ffbae806</item>
+        <item>#ff2ece0c</item>
+        <item>#ff0aafce</item>
+        <item>#ff0d74ce</item>
+        <item>#ff1f0cce</item>
+        <item>#ff800cce</item>
+        <item>#ffce0c82</item>
+    </string-array>
+</resources>

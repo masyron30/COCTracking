@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent" android:layout_width="match_parent"
+    android:id="@+id/finder_view"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:id="@+id/finder_top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_margin="8dp">
+
+        <include layout="@layout/finder_form"/>
+
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_below="@id/finder_form"
+            style="@style/statTextNote"
+            android:text="@string/finder_explanation"
+            android:id="@+id/finder_form_explanation"/>
+
+        <include layout="@layout/finder_table1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_toRightOf="@+id/finder_form" />
+
+        <include layout="@layout/finder_table2"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_toRightOf="@+id/finder_table1"/>
+    </RelativeLayout>
+
+
+</ScrollView>
