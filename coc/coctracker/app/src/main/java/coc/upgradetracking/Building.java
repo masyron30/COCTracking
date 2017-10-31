@@ -1,6 +1,4 @@
-package name.gmail.nsomlai.coctracker;
-
-import android.graphics.Color;
+package coc.upgradetracking;
 
 import java.io.Serializable;
 

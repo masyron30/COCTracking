@@ -1,6 +1,4 @@
-package name.gmail.nsomlai.coctracker;
-
-import android.util.Log;
+package coc.upgradetracking;
 
 public class FinderItem implements Comparable<FinderItem> {
     private Building building;

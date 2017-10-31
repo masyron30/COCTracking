@@ -1,4 +1,4 @@
-package name.gmail.nsomlai.coctracker;
+package coc.upgradetracking;
 
 /**
  * Created by Norbert on 2015.01.29..

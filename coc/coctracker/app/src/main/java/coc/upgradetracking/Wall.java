@@ -1,4 +1,4 @@
-package name.gmail.nsomlai.coctracker;
+package coc.upgradetracking;
 
 import java.io.Serializable;
 
@@ -10,17 +10,21 @@ public class Wall implements Serializable {
 
     int count;
     int level;
+    int maxPerTHLevel;
 
-    public Wall(int count, int level) {
+    public Wall(int count, int level, int maxPerTHLevel) {
         this.count = count;
         this.level = level;
+        this.maxPerTHLevel = maxPerTHLevel;
     }
 
     public int getCount() {
         return count;
     }
-
     public void setCount(int count) {
+        if(count > maxPerTHLevel) {
+            count = maxPerTHLevel;
+        }
         this.count = count;
     }
 

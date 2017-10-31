@@ -1,17 +1,14 @@
-package name.gmail.nsomlai.coctracker;
+package coc.upgradetracking;
 
 import android.app.Activity;
 import android.app.AlertDialog;
-import android.app.Fragment;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.graphics.Color;
 import android.os.Bundle;
-import android.os.PersistableBundle;
 import android.preference.PreferenceManager;
-import android.support.annotation.NonNull;
 import android.support.v4.view.ViewPager;
 import android.text.Html;
 import android.text.InputFilter;
@@ -44,17 +41,12 @@ import java.text.DecimalFormat;
 import java.text.DecimalFormatSymbols;
 import java.text.NumberFormat;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashSet;
-import java.util.Iterator;
 import java.util.List;
 import java.util.Locale;
 import java.util.Set;
-import java.util.SortedSet;
-import java.util.TreeSet;
 
 
 public class MainActivity extends Activity {
@@ -66,6 +58,7 @@ public class MainActivity extends Activity {
     public static final int MAX_HERO_LEVEL = 45;
     public static final int MAX_WALL_LEVEL = 12;
     public static final int MAX_VILLAGENAME = 15;
+    public static final int MAX_NUMOFMAXWALLS = 100;
 
     protected int builderCount = MAX_BUILDER_COUNT;
     protected int heroMaxLevel = MAX_HERO_LEVEL;
@@ -237,18 +230,22 @@ public class MainActivity extends Activity {
     void updateWalls(int thLevel) {
         // add/remove wall levels
         int maxWallLevels = BuildingType.WALL.getMaxLevelForThLevel(thLevel);
+        int maxWallCount = BuildingType.WALL.getMaxCountForThLevel(thLevel);
         if (wallData.size() > maxWallLevels) {
             wallData.subList(maxWallLevels, wallData.size()).clear();
         } else if (wallData.size() < maxWallLevels) {
             int wallLevel = wallData.size() + 1;
             while (wallLevel <= maxWallLevels) {
-                wallData.add(new Wall(0, wallLevel));
+                if(wallLevel == MAX_WALL_LEVEL){
+                    maxWallCount = MAX_NUMOFMAXWALLS;
+                }
+                wallData.add(new Wall(0, wallLevel, maxWallCount));
                 wallLevel++;
             }
         }
         // fix total wall count if too many
         if (wallData.size() > 0) {
-            int maxWallCount = BuildingType.WALL.getMaxCountForThLevel(thLevel);
+            //int maxWallCount = BuildingType.WALL.getMaxCountForThLevel(thLevel);
             int wallCount = getWallCount();
             if (wallCount > maxWallCount) {
                 int diff = wallCount - maxWallCount;
@@ -275,7 +272,15 @@ public class MainActivity extends Activity {
         }
         return count;
     }
-
+    int getMaxLevelWallCount() {
+        int count = 0;
+        for (Wall w : wallData) {
+            if(w.getLevel() == MAX_WALL_LEVEL) {
+                count += w.getCount();
+            }
+        }
+        return count;
+    }
     int getWallCount(int excludePosition) {
         return getWallCount() - wallData.get(excludePosition).getCount();
     }

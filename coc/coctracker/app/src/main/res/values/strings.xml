@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="ad_unit_id">ca-app-pub-???</string>
-    <string name="ad_unit_id_test">ca-app-pub-3940256099942544/6300978111</string>
-    <string name="app_name">Upgrade Tracker for Clash</string>
+    <string name="ad_unit_id_test">ca-app-pub-5564689092857206/8634495817</string>
+    <string name="ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="app_name">COC Upgrade Tracking</string>
     <string name="action_help">Help</string>
     <string name="help_title">How to use</string>
     <string name="help_text"><![CDATA[Set your current town hall level first. Then set the current level of all spells, buildings and troops.

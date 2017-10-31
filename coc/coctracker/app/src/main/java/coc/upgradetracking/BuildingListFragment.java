@@ -1,4 +1,4 @@
-package name.gmail.nsomlai.coctracker;
+package coc.upgradetracking;
 
 import android.app.Fragment;
 import android.os.Bundle;

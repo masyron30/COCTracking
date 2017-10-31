@@ -44,7 +44,7 @@ MERGED from com.google.android.gms:play-services:6.5.87:21:9
 		ADDED from AndroidManifest.xml:13:20
 	android:value
 		ADDED from AndroidManifest.xml:14:13
-activity#name.gmail.nsomlai.coctracker.MainActivity
+activity#coc.upgradetracking.MainActivity
 ADDED from AndroidManifest.xml:15:9
 	android:label
 		ADDED from AndroidManifest.xml:17:13

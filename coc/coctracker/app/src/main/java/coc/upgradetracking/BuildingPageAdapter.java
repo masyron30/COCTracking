@@ -1,4 +1,4 @@
-package name.gmail.nsomlai.coctracker;
+package coc.upgradetracking;
 
 import android.app.Fragment;
 import android.app.FragmentManager;
@@ -6,7 +6,6 @@ import android.support.v13.app.FragmentPagerAdapter;
 import android.view.ViewGroup;
 
 import java.util.ArrayList;
-import java.util.List;
 
 /**
  * Created by Norbert on 2015.01.30..
